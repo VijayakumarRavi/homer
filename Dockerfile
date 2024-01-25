@@ -10,7 +10,7 @@ COPY . .
 RUN yarn build
 
 # production stage
-FROM alpine:3.18
+FROM alpine:3
 
 ENV GID 1000
 ENV UID 1000
